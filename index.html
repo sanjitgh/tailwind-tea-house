@@ -23,6 +23,10 @@
       .manrope {
         font-family: "Manrope", sans-serif;
       }
+      ::selection{
+        background-color: #f97316 ;
+        color: aliceblue;
+      }
     </style>
   </head>
 
@@ -349,5 +353,109 @@
         </div>
       </section>
     </main>
+
+    <footer class="lg:py-20 py-14 bg-gradient-to-r from-orange-100 to-red-100">
+      <!-- footer first row & container -->
+      <div class="max-w-[1140px] mx-auto xl:px-0 px-4">
+        <div
+          class="grid md:grid-cols-2 place-items-center md:justify-items-stretch lg:place-items-stretch gap-8 lg:gap-0 mb-16"
+        >
+          <!-- logo -->
+          <div class="text-start">
+            <img class="w-16" src="images/cup.png" alt="" />
+          </div>
+          <!-- get started -->
+          <div class="flex justify-end items-center gap-5">
+            <p class="text-gray-500">Ready to get strated?</p>
+            <div>
+              <button
+                class="bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-lg py-3 px-4 capitalize"
+              >
+                get started
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer useful links -->
+        <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-10 xl:gap-5">
+          <!-- first item -->
+          <div>
+            <h4 class="text-xl font-semibold mb-3 text-gray-950 capitalize">
+              quick links
+            </h4>
+            <ul class="space-y-1">
+              <li><a class="text-gray-500" href="#">Home</a></li>
+              <li><a class="text-gray-500" href="#">About Us</a></li>
+              <li><a class="text-gray-500" href="#">Insurance</a></li>
+              <li><a class="text-gray-500" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- second item -->
+          <div>
+            <h4 class="text-xl font-semibold mb-3 text-gray-950 capitalize">
+              our services
+            </h4>
+            <ul class="space-y-1">
+              <li><a class="text-gray-500" href="#">Life Insurance</a></li>
+              <li><a class="text-gray-500" href="#">Health Insurance</a></li>
+              <li><a class="text-gray-500" href="#">Car Insurance</a></li>
+            </ul>
+          </div>
+
+          <!-- third item -->
+          <div>
+            <h4 class="text-xl font-semibold mb-3 text-gray-950 capitalize">
+              help
+            </h4>
+            <ul class="space-y-1">
+              <li><a class="text-gray-500" href="#">FAQ</a></li>
+              <li><a class="text-gray-500" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- fourth item -->
+          <div>
+            <h4 class="text-2xl font-semibold mb-3 text-gray-950 capitalize">
+              Subscribe to our <br />
+              newsletter
+            </h4>
+            <div class="flex justify-between gap-3">
+              <input
+                class="bg-transparent border-b-[1px] border-gray-700 px-1 py-2 w-full outline-none placeholder:text-gray-500"
+                placeholder="Enter Your Email..."
+                type="email" autocomplete="off"
+              />
+              <button
+                class="bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full w-8 h-8"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+            <ul class="flex gap-5 mt-4">
+              <li>
+                <a href="#"
+                  ><i class="fa-brands fa-facebook-f text-gray-700 text-xl"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-brands fa-twitter text-gray-700 text-xl"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-brands fa-instagram text-gray-700 text-xl"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- copy -->
+         <p class="text-center text-gray-500 mt-16">© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
